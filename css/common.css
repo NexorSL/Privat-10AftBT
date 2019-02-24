@@ -1,6 +1,21 @@
 html * {
-  font-family: 'Merriweather', serif;
+  font-family: 'Fira Sans', serif;
   font-size: 14px;
+  color: #848484;
+}
+
+@media (max-width: 500px) {
+  html * {
+    font-size: 10px;
+  }
+}
+
+strong {
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 20px;
 }
 
 [href] {
@@ -9,8 +24,15 @@ html * {
 
 .svg-arrow {
   width: 10px;
+  fill: #848484;
 }
 
 .svg-cart {
-  width: 14px;
+  width: 18px;
+  fill: #ffffff;
+}
+
+.svg-find {
+  width: 10px;
+  fill: #9d9d9d;
 }
