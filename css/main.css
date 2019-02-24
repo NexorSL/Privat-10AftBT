@@ -1,4 +1,23 @@
-img {
+h2 {
   position: absolute;
-  width: 100%;
+  top: 50%;
+  right: 53%;
+  color: white;
+}
+
+h3 {
+  position: absolute;
+  top: 52%;
+  right: 50%;
+}
+
+.Main-img {
+  background-image: url("img/500.jpeg");
+}
+
+.Main-img-h2h3 {
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  color: white;
 }
