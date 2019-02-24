@@ -1,3 +1,9 @@
-.text {
-  font-size: 30px;
+.Header-up-currency ul {
+  display: none;
+  position: absolute;
+}
+
+.Header-up-currency a:hover ul {
+  color: blue;
+  display: block;
 }
