@@ -65,7 +65,7 @@ header {
 .Header-down-main {
   display: grid;
   grid-template-columns: 3fr 2fr 1fr;
-  padding: 0 8%;
+  padding: 0 100px;
 }
 
 .Header-down-main ul {

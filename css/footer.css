@@ -5,6 +5,7 @@
 }
 
 .Footer-up-container {
+  margin: 70px 0;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   width: 65%;
@@ -13,6 +14,88 @@
 .Footer-up-container-list-disc {
   margin-top: 20px;
   line-height: 25px;
+}
+
+.Footer-up-container-down {
+  display: flex;
+  justify-content: space-between;
+  grid-column: 1/6;
+  margin-top: 40px;
+}
+
+.Footer-up-container-winner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #333333;
+  width: 48%;
+  height: 150px;
+}
+
+.Footer-up-container-winner a {
+  color: #ffffff;
+  font-size: 33px;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+
+.Footer-up-container-winner a strong {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  color: inherit;
+  font-size: inherit;
+}
+
+.Footer-up-container-social {
+  background-color: #00c8c8;
+  width: 48%;
+}
+
+.Footer-up-container-social form {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+}
+
+.Footer-up-container-social-buttons {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 0;
+  background-color: #00c8c8;
+  transition: .5s;
+}
+
+.Footer-up-container-social-buttons:hover {
+  background-color: #333333;
+}
+
+.Footer-up-container-social-buttons:hover i {
+  color: #ce3dff;
+}
+
+.Footer-up-container-social-buttons i {
+  color: #ffffff;
+  font-size: 26px;
+}
+
+.Footer-down {
+  background-color: #333333;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 50px;
+}
+
+.Footer-down-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Footer-down-info a {
+  margin: 0 3px;
 }
 
 .InfoFooter {

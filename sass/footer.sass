@@ -3,6 +3,7 @@
   justify-content: center
   background-color: #f8f8f8
   &-container
+    margin: 70px 0
     display: grid
     grid-template-columns: repeat(5, 1fr)
     width: 65%
@@ -10,5 +11,61 @@
       &-disc
         margin-top: 20px
         line-height: 25px
+    &-down
+      display: flex
+      justify-content: space-between
+      grid-column: 1/6
+      margin-top: 40px
+    &-winner
+      display: flex
+      justify-content: center
+      align-items: center
+      background-color: #333333
+      width: 48%
+      height: 150px
+      a
+        color: #ffffff
+        font-size: 33px
+        font-weight: 100
+        text-transform: uppercase
+        strong
+          display: flex
+          justify-content: center
+          align-items: flex-end
+          color: inherit
+          font-size: inherit
+    &-social
+      background-color: #00c8c8
+      width: 48%
+      form
+        display: flex
+        justify-content: space-around
+        align-items: center
+        height: 100%
+      &-buttons
+        width: 40px
+        height: 40px
+        border-radius: 50%
+        border: 0
+        background-color: #00c8c8
+        transition: .5s
+        &:hover
+          background-color: #333333
+          i
+            color: #ce3dff
+        i
+          color: #ffffff
+          font-size: 26px
+.Footer-down
+  background-color: #333333
+  display: grid
+  grid-template-columns: 1fr 1fr
+  height: 50px
+  &-info
+    display: flex
+    justify-content: center
+    align-items: center
+    a
+      margin: 0 3px
 .InfoFooter
   margin-bottom: 20px
