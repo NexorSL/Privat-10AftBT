@@ -1,18 +1,30 @@
-.Header-up, .Header-down-main, .Main-address
-  @media(max-width: 600px)
+@media(max-width: 600px)
+  .Header-up, .Header-down-main
     display: grid
     grid-template-columns: 1fr 1fr 1fr
     grid-row: 10px
     margin: 0
     padding: 0
-.Header-down-main
-  @media(max-width: 600px)
+  .Header-down-main
     display: flex
     flex-direction: column
-.Footer-up-container
-  @media(max-width: 600px)
+  .Footer-up-container
     width: 100%
+    margin-left: 3px
+    margin-bottom: 0
+  .Main-card
+    display: flex
+    justify-content: space-between
     margin-left: 5px
-h2, h3
-  @media(max-width: 450px)
+  button[type="button"]
+    width: 100%
+    font-size: 10px
+  .Footer-up-container-winner
+    visibility: hidden
+    position: absolute
+  .Footer-up-container-social
+    width: 99%
+    height: 100px
+@media(max-width: 450px)
+  h2, h3
     font-size: 20px
