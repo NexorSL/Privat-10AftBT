@@ -1,0 +1,20 @@
+.Footer-up {
+  display: flex;
+  justify-content: center;
+  background-color: #f8f8f8;
+}
+
+.Footer-up-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  width: 65%;
+}
+
+.Footer-up-container-list-disc {
+  margin-top: 20px;
+  line-height: 25px;
+}
+
+.InfoFooter {
+  margin-bottom: 20px;
+}

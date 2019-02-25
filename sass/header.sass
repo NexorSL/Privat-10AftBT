@@ -12,9 +12,16 @@ header
     & ul
       display: none
       position: absolute
+      background-color: #333333
+      width: 7%
+      li
+        color: #ffffff
+        border: 0.1px solid #ececec
     & a:hover ul
       color: blue
-      display: block
+      display: grid
+      grid-template-rows: 1fr 1fr 1fr
+      grid-gap: 3px
   &-login
     display: flex
     justify-content: space-around
@@ -45,6 +52,9 @@ header
       font-weight: 700
       font-size: 14px
       text-transform: uppercase
+      transition: 0.5s
+      &:hover
+        color: #00c8c8
     &-h1
       color: #2b2b2b
       font-size: 22px

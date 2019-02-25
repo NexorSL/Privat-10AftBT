@@ -12,6 +12,7 @@ html * {
 
 strong {
   font-weight: 700;
+  text-transform: uppercase;
 }
 
 p {
@@ -67,6 +68,10 @@ button[type="button"]:hover {
 
 [href] {
   text-decoration: none;
+}
+
+[href]:hover {
+  color: #00c8c8;
 }
 
 .svg-arrow {

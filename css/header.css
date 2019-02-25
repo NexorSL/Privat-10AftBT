@@ -18,11 +18,20 @@ header {
 .Header-up-currency ul {
   display: none;
   position: absolute;
+  background-color: #333333;
+  width: 7%;
+}
+
+.Header-up-currency ul li {
+  color: #ffffff;
+  border: 0.1px solid #ececec;
 }
 
 .Header-up-currency a:hover ul {
   color: blue;
-  display: block;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-gap: 3px;
 }
 
 .Header-up-login {
@@ -69,6 +78,11 @@ header {
   font-weight: 700;
   font-size: 14px;
   text-transform: uppercase;
+  transition: 0.5s;
+}
+
+.Header-down-main-li:hover {
+  color: #00c8c8;
 }
 
 .Header-down-main-h1 {
